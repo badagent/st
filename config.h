@@ -7,6 +7,7 @@
  */
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static char *font = "Fira Code:style=regular:size=10";
+static char *font2 = "Siji:style=regular";
 //static char *font = "Inconsolata:style=regular:size=10";
 //static char *font = "Source Code Pro:style=regular:size=10";
 static int borderpx = 2;
