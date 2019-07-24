@@ -2005,6 +2005,18 @@ main(int argc, char *argv[])
 	win.cursor = cursorshape;
 
 	ARGBEGIN {
+	case 'C': 
+		for(int i=0;i<15;i++) {
+			colorname[i] = colorname_ansi[i];
+		}
+		alpha = 1.0;
+		break;
+	case 'S': 
+		for(int i=0;i<15;i++) {
+			colorname[i] = colorname_solarized[i];
+		}
+		alpha = 1.0;
+		break;
 	case 'a':
 		allowaltscreen = 0;
 		break;

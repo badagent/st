@@ -1,4 +1,5 @@
 #include </home/badagent/.cache/wal/colors-wal-st.h>
+#include "alternative-colors.h"
 
 /* See LICENSE file for copyright and license details. */
 
@@ -66,7 +67,7 @@ static unsigned int cursorthickness = 2;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 100;
 
 /* default TERM value */
 char *termname = "st-256color";
