@@ -9,10 +9,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static char *font = "Fira Code:style=regular:antialias=true:size=12";
+//static char *font = "Fira Code:style=regular:antialias=true:size=12";
 static char *font2 = "Font Awesome 5 Free:style=regular";
-//static char *font = "Inconsolata:style=regular:size=10";
-//static char *font = "Source Code Pro:style=regular:size=10";
+//static char *font = "Inconsolata:style=regular:size=12";
+static char *font = "Source Code Pro:style=regular:size=12";
 static int borderpx = 2;
 
 /*
